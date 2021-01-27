@@ -6,10 +6,10 @@ var CourseDetails ;
 if(CourseNo >=1 && CourseNo <3){
     CourseDetails="congratulation you have 25% Discount";
 }
- if (CourseNo >=3 && CourseNo <5){
+ else if (CourseNo >=3 && CourseNo <5){
     CourseDetails="congratulation you have 50% Discount";
 }
-if (CourseNo >=5){
+else if (CourseNo >=5){
     CourseDetails="congratulation you have 50% Discount and 1 more course for free !!";
 }
 else{
