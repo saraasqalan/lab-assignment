@@ -1,12 +1,16 @@
 var WebSite = prompt("which web site you Preferred start class with it ?");
+<<<<<<< HEAD
 
 while (website !=='wix' && website !=='w3schools' && website !=='udemy'){
     WebSite = prompt("which web site you Preferred start class with it ?");
 }
+=======
+>>>>>>> 01953ea8e95ca7b75c00b5487a8c6bea38fc862f
 var reson = prompt("why you prefer this website ?");
 var CourseNo = prompt("how many course you want take ?");
 
 var CourseDetails ;
+<<<<<<< HEAD
 if(CourseNo =1){
     CourseDetails="no Discount";
 }
@@ -45,3 +49,21 @@ document.write(result);
 document.write(CourseDetails);
 confirm("thank you for using our website ");
 alert("Bye Bye")
+=======
+if(CourseNo >=1 && CourseNo <3){
+    CourseDetails="congratulation you have 25% Discount";
+}
+ else if (CourseNo >=3 && CourseNo <5){
+    CourseDetails="congratulation you have 50% Discount";
+}
+else if (CourseNo >=5){
+    CourseDetails="congratulation you have 50% Discount and 1 more course for free !!";
+}
+else{
+CourseDetails="sorry you write wrong value :)";
+}
+
+document.write(CourseDetails);
+confirm("thank you for using our website ");
+alert("Bye Bye")
+>>>>>>> 01953ea8e95ca7b75c00b5487a8c6bea38fc862f
