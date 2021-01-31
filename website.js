@@ -10,8 +10,9 @@ alert("ok");
 function getName() {
   var userName = prompt('Enter your name?');
   console.log(typeof prompt);
-  console.log(userName);}
-  
+  console.log(userName);
+}
+
   getName();
   alert("Done");
 
@@ -19,7 +20,7 @@ function getName() {
 
 var number = '';
 for (var i = 0; i <= CourseNo; i++) {
-  number = course;
+  number = number +course ;
 var course = '';
 if (website === 'wix') {
   course = '<img src="image/wix.png"/ >' ;
