@@ -9,7 +9,8 @@ alert("ok");
 var number = '';
 
 
-
+for (var i = 0; i < CourseNo; i++) {
+  number = course;
 var course = '';
 if (website === 'wix') {
   course = '<img src="image/wix.png"/ >' ;
@@ -19,10 +20,9 @@ else if (website === 'udemy') {
 }
  else if (website === 'w3schools') {
     course = '<img src="image/w3schools.png"/>';
-  }
+    }}
   
-  for (var i = 0; i < CourseNo; i++) {
-    number = number + CourseNo;}
+ 
 
 
 
