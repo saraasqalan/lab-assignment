@@ -1,0 +1,37 @@
+*{
+    margin: 5%;
+}
+
+title{
+    color: aqua;
+}
+
+    header nav ul{
+
+        list-style :none;
+    }
+
+header nav ul li a {
+
+    text-decoration: none;
+    color:#130208
+
+}
+main h1 {
+
+    text-align:center;
+     color: rgb(128, 80, 200);
+}
+p {
+    text-align: center;
+    color :hsl(180, 75%, 75%);
+}
+main p h3 {
+    color:rgb(92, 241, 92);
+
+}
+main ol li {
+text-align:  center;
+}
+
+

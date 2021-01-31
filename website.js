@@ -6,10 +6,19 @@ alert ("ok");
 
 var CourseNo = prompt("how many course you want take ?");
 alert("ok");
+
+function getName() {
+  var userName = prompt('Enter your name?');
+  console.log(typeof prompt);
+  console.log(userName);}
+  
+  getName();
+  alert("Done");
+
+
+
 var number = '';
-
-
-for (var i = 0; i < CourseNo; i++) {
+for (var i = 0; i <= CourseNo; i++) {
   number = course;
 var course = '';
 if (website === 'wix') {
@@ -22,10 +31,6 @@ else if (website === 'udemy') {
     course = '<img src="image/w3schools.png"/>';
     }}
   
- 
-
-
-
 var CourseDetails ;
 if(CourseNo =1){
     CourseDetails="no Discount";
@@ -38,6 +43,8 @@ else if (CourseNo >3 && CourseNo <5){
 }
 else{
 CourseDetails="congratulation you have 50% Discount and 1 more course for free !!";}
+
+
 document.write(CourseDetails);
 document.write(course);
 document.write(number);
