@@ -26,7 +26,7 @@ function getName() {
 
 var number = '';
 var course = '';
-for (var i = 0; i <= CourseNo; i++) {
+for (var i > 0; i <= CourseNo; i++) {
   
   
 
